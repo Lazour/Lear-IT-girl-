@@ -1,2 +1,2 @@
-# Lear-IT-girl-
+# Learn-IT-girl-
 CV builder
