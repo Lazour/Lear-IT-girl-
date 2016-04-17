@@ -6,7 +6,7 @@
 
     100% To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
+
     ========================================================  */
 
 /* =============================================================
@@ -15,14 +15,14 @@
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 30px;
-    
+
 }
 
 
 h2 {
     padding-top:50px;
-    text-transform: uppercase;  
-    padding-bottom:20px;  
+    text-transform: uppercase;
+    padding-bottom:20px;
     color:#000;
 }
 h3 {
@@ -45,7 +45,7 @@ p {
     padding:10px 0px;
 }
 /*=====================================
-  NAVBAR STYLES 
+  NAVBAR STYLES
     ===================================*/
 
 .logo-custom {
@@ -57,30 +57,30 @@ p {
     font-size:12px;
     font-weight:900;
     letter-spacing:1px;
-   
+
 }
 .navbar-inverse {
-border-color:transparent;
+border-color:white;
 }
 .navbar-inverse .navbar-nav > li > a,.navbar-inverse .navbar-nav > li > a:hover {
-color: #FFF;
+color:red;
 }
 
 .home-mail {
-    font-size:12px; 
+    font-size:12px;
     font-weight:normal;
     padding-left:5px;
 }
 /*=====================================
-  HEADERS STYLES 
+  HEADERS STYLES
     ===================================*/
 
 
 .header-sec {
-  
+
     padding-top: 10px;
     padding-bottom: 60px;
-    background: url(../img/head.jpg) no-repeat center center;
+    background: url(../img/Header_pers.jpg) no-repeat center center;
 padding: 0;
 -webkit-background-size: cover;
 background-size: cover;
@@ -88,23 +88,73 @@ background-size: cover;
  background-attachment:fixed;
 }
 .header-sec .overlay{
-    background:rgba(8, 134, 74, 0.90);
-min-height: 500px;
+    background:rgba(255, 0, 0, 0.5); (8, 134, 74);
+min-height: 200px;
 }
     .header-sec h2 {
         color:#fff;
         padding-top:150px;
-    }
+}
+
+/*=====================================
+  PRICING STYLES
+    ===================================*/
 
 
+.price-sec {
 
-    /*=====================================
-  TESTIMONIALS STYLES 
+        padding-top: 40px;
+        padding-bottom: 60px;
+        color:#fff;
+
+
+}
+.price-sec span {
+            font-size:90px;
+}
+
+.single-price {
+
+        background-color:rgba(8, 134, 74,1);
+        padding:20px;
+}
+
+.single-price:hover {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+  background-color:black;
+
+    text-decoration: underline;
+}
+.single-price:hover h1{
+  font-size: 40px;
+  padding: 16px;
+}
+
+.multi-price {
+        background-color:#4bb777;
+        padding:20px;
+}
+.multi-price:hover {
+  background-color:yellow;
+  padding:20px;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+  text-decoration: underline;
+}
+/*=====================================
+  TESTIMONIALS STYLES
     ===================================*/
 
 
 .testi-sec {
-  
+
     padding-top: 10px;
     padding-bottom: 60px;
     background: url(../img/testi.jpg) no-repeat center center;
@@ -130,39 +180,16 @@ min-height: 300px;
 }
 
 
-/*=====================================
-  PRICING STYLES 
-    ===================================*/
 
-.price-sec {
-  
-    padding-top: 40px;
-    padding-bottom: 60px;
-    color:#fff;
-   
-
-}
-    .price-sec span {
-        font-size:90px;
-    }
-
-.single-price {
-    background-color:rgba(8, 134, 74,1);
-    padding:50px;
-}
-.multi-price {
-    background-color:#4bb777;
-    padding:50px;
-}
   /*=====================================
-  CONTACT STYLES 
+  CONTACT STYLES
     ===================================*/
 .contact {
     font-size:20px;
     line-height:35px;
 }
  /*=====================================
-  FOOTER STYLES 
+  FOOTER STYLES
     ===================================*/
 
  .myfooter {
