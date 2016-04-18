@@ -125,13 +125,13 @@ min-height: 200px;
        -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
-  background-color:black;
+  background-color:red;
 
     text-decoration: underline;
 }
 .single-price:hover h1{
-  font-size: 40px;
-  padding: 16px;
+
+
 }
 
 .multi-price {
