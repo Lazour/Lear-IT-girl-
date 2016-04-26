@@ -6,7 +6,7 @@
 
     100% To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
+
     ========================================================  */
 
 (function ($) {
@@ -26,8 +26,13 @@
             });
 		//scrollReveal scripts
             window.scrollReveal = new scrollReveal();
-            
 
+            $('#age').change(function(e) {
+              var val = $('#age').val();
+              if(!(parseInt(val) >= '0' && parseInt(val) <= '80')) {
+                $('#age').val('');
+              }
+            });
             /*====================================
             WRITE YOUR SCRIPTS BELOW
             ======================================*/
