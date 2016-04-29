@@ -121,7 +121,7 @@ min-height: 500px;
 .price-sec {
         height: 250px;
         padding-top: 30px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         color: white;
 
 
@@ -169,6 +169,60 @@ color: white;
           transition: all 1s ease;
   text-decoration: underline;
 }
+
+
+/*=====================================
+  FORM CV STYLES
+    ===================================*/
+.form {
+      border-radius: 5px;
+      padding: 0;
+      overflow: hidden;
+      width: 240px;
+
+    }
+.input {
+      border-radius: 5px;
+      width: 375px;
+      height: 100px;
+ }
+
+.btn-CV {
+  border: 0;
+background: #648880;
+padding: 11px 30px;
+font-size: 14px;
+}
+
+.btn-CV:hover {
+  background: #77a198;
+}
+
+
+
+
+#experience {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+  /*=====================================
+    VOLUNTEER STYLES
+      ===================================*/
+
+  .volunteer-sec {
+
+      padding-top: 10px;
+      padding-bottom: 100px;
+      background: url(../img/Japon.jpg) no-repeat center center;
+  padding: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+   color:#white;
+   background-attachment:fixed;
+  }
+
+
 /*=====================================
   TESTIMONIALS STYLES
     ===================================*/
